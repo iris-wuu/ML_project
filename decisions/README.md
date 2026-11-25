@@ -7,7 +7,7 @@ Rewrite an ADR to its current state rather than appending updates. If a decision
 
 | ADR | Title | Status |
 |---|---|---|
-| _(none yet)_ | | |
+| [0001](0001-repo-layout.md) | Repository layout | accepted |
 
 ## Template
 

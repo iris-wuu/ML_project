@@ -1,0 +1,16 @@
+# Data and outputs (regenerate from scripts)
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+results/**/*.parquet
+results/**/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Secrets
+.env
