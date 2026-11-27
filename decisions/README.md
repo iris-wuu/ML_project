@@ -8,6 +8,7 @@ Rewrite an ADR to its current state rather than appending updates. If a decision
 | ADR | Title | Status |
 |---|---|---|
 | [0001](0001-repo-layout.md) | Repository layout | accepted |
+| [0002](0002-use-full-data.md) | Use the full random-exposure data, no video subsample | accepted |
 
 ## Template
 
