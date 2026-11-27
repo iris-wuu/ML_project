@@ -11,7 +11,7 @@ dataset. Engagement and negative feedback are rare, so sample size limits every 
 
 ## Decision
 
-Use every random exposure in KuaiRand-Pure tab 1 with a categorized video: 1,176,006 exposures, 27,285 users,
+Use every random exposure in KuaiRand-Pure tab 1 with a categorized video: 1,176,006 exposures, 27,000 users,
 7,525 videos. Video-level resampling, if used, is a robustness tool (within-group, with replacement, full
 size), not a way to shrink the data.
 

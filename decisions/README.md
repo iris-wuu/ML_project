@@ -9,6 +9,9 @@ Rewrite an ADR to its current state rather than appending updates. If a decision
 |---|---|---|
 | [0001](0001-repo-layout.md) | Repository layout | accepted |
 | [0002](0002-use-full-data.md) | Use the full random-exposure data, no video subsample | accepted |
+| [0003](0003-category-groups.md) | Actions: 11 category groups | accepted |
+| [0004](0004-outcomes.md) | Outcome definitions | accepted |
+| [0005](0005-features-splits-propensity.md) | User features, splits and propensity | accepted |
 
 ## Template
 

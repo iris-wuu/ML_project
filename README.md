@@ -35,4 +35,21 @@ python -m venv .venv && source .venv/bin/activate
 pip install -e .
 ```
 
-Download KuaiRand (https://github.com/chongminggao/KuaiRand) into `data/raw/`.
+## Build the data
+
+```bash
+./scripts/download_data.sh          # KuaiRand-Pure (47 MB) + category labels into data/raw/
+python scripts/prepare_data.py      # writes data/processed/ and results/tables/data_coverage.csv
+pytest
+```
+
+`data/processed/` then holds:
+
+| File | One row per | Contents |
+|---|---|---|
+| `exposures.parquet` | random exposure (1,176,006) | user, video, time, group, `y_engage`, `y_watch`, `y_hate`, `split`, `time_test` |
+| `users.parquet` | user (27,285) | features X (static + 4/08-4/21 history), `split` |
+| `videos.parquet` | video (7,583) | first-level category, group |
+| `propensity.csv` | group (11) | share of training exposures |
+
+Choices and evidence: decisions 0002-0005.

@@ -3,7 +3,15 @@ name = "kuairand-policy"
 version = "0.1.0"
 description = "Causal reward estimation and robust constrained policy trees for short-video recommendation (KuaiRand)"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "scipy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
 
 [build-system]
 requires = ["setuptools>=68"]
